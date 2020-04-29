@@ -1,18 +1,21 @@
-import { BrowserModule } from '@angular/platform-browser';
+/*
+ * @Description: 
+ * @Version: 1.0
+ * @Author: Starshipz
+ * @Date: 2020-04-29 10:21:31
+ * @LastEditTime: 2020-04-29 10:41:00
+ */
 import { NgModule } from '@angular/core';
-
-import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { CoreModule } from './core/core.module';
 
 @NgModule({
   declarations: [
     AppComponent
   ],
   imports: [
-    BrowserModule,
-    AppRoutingModule
+    CoreModule
   ],
-  providers: [],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
